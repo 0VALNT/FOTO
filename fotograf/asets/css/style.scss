@@ -1,0 +1,147 @@
+$green_main: #3A5F56;
+$gray_main: #292C32;
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.cointainer{
+max-width: 1170px;
+margin: 0 auto;
+
+}
+.btn{
+    color: white;
+    background-color: $green_main;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+.header{
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+
+    }
+    &__box{
+        display: flex;
+    }
+    &__link{
+        color: $green_main;
+        font-style: 16px;
+
+        &:hover{
+            color: greenyellow;
+        }
+    }
+    &_item{
+        margin-right: 30px;
+    }
+    &__cart{
+        display: flex;
+        gap:8px;
+        &::before{
+            content: '';
+            background: url(../img/Cart.svg);
+            display: block;
+            width: 17px;
+            height: 17px;
+        }
+        &::after{
+            content: '0';
+            color: $green_main;
+            background-color: white;
+            padding: 0px 6px;
+            border-radius: 50%;
+        }
+    }
+}
+.main{
+    background: url(../img/Fon.png) no-repeat center center / cover;
+    padding: 100px 0px;
+    &__wrap{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+&__titl{
+    color: $green_main;
+    font-size: 48;
+    margin-bottom: 15px;
+}
+&__text{
+    color: $gray_main;
+    font-size: 16;
+    margin-bottom: 27px;
+}
+}
+.services{
+    padding: 100px 0px;
+    &__titl{
+        color:$green_main;
+        font-size: 32px;
+        margin-bottom: 11px;
+        text-align: center;
+    }
+    &__text{
+        color:$gray_main;
+        font-size: 16px;
+        min-width: 59px;
+        
+        margin: 0 auto;
+        &__center{
+            text-align: center;
+        }
+    }
+    &__row{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:16px
+    }
+    &__card{
+        max-width: 378px;
+        border-radius: 16px;
+        background-color: #F4F3F0;
+        padding: 30px;
+    }
+    &__icon{
+        width: 48px;
+        height: 48px;
+        margin-bottom: 9px;
+    }
+    &__subtitl{
+        color: $green_main;
+        font-size: 24;
+        margin-bottom: 6px;
+    }
+    &__read{
+        color: $green_main;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        &::after{
+            background: url(../img/Path.svg) no-repeat center center / cover;
+            display: block;
+            height: 10px;
+            width: 20px;
+        }
+    }
+}
