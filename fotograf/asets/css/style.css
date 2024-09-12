@@ -21,6 +21,7 @@ li {
 .cointainer {
   max-width: 1170px;
   margin: 0 auto;
+  
 }
 
 .btn {
@@ -138,8 +139,109 @@ li {
   align-items: center;
 }
 .services__read::after {
-  background: url(../img/Path.svg) no-repeat center center/cover;
+  background: url(../img/Path.svg) no-repeat center center;
   display: block;
   height: 10px;
   width: 20px;
+}
+.servies__img{
+  padding-left: 500px;
+}
+.div{
+  display: flex;
+}
+.Preset__titl{
+  color: #DB343B;
+  font-size: 32px;
+  margin-bottom: 11px;
+  text-align: center;
+}
+.Preset__card {
+  max-width: 378px;
+  border-radius: 16px;
+  background-color: #F4F3F0;
+  
+}
+.Preset__text {
+  color: #3A5F56;
+  font-size: 16px;
+  min-width: 59px;
+  margin: 0 auto;
+}
+.store{
+  padding-top: 30px;
+  color: #3A5F56;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.jo{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 290px;
+  padding-bottom: 100px;
+}
+.jojo{
+  background-color: #F4F3F0;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+}
+.kj{
+  max-width: 313px;
+  padding: 80px;
+}
+.hj{
+  padding: 100px 80px;
+}
+.services__reads {
+  color: #ffffff;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.ko{
+  background-color: #292C32;
+}
+.jiji{
+  padding-top: 100px;
+  padding-left: 450px;
+  padding-bottom: 75px;
+}
+.foter__text{
+  color: #B87D58;
+}
+.op{
+  padding-top: 13px;
+  color: white;
+}
+.kl{
+  padding-top:32px ;
+}
+.ololo{
+  display: flex;
+  gap: 100px;
+}
+.foot__email{
+  height: 53px;
+  width: 458px;
+  border: #E5E7EB;
+  border-radius: 8px;
+}
+.qwe{
+  display: flex;
+  
+}
+.butt{padding: 0px 10px;
+border-radius: 10px;}
+.we{
+  color: white;
+  padding-top: 30px;
+  display: flex;
+}
+.jojoo{
+  padding-left: 517px;
+}
+.logoo{
+  padding-left: 10px;
 }
